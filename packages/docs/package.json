@@ -23,9 +23,10 @@
   },
   "dependencies": {
     "@bruno-ui/eslint-config": "*",
-    "@bruno-ui/ts-config": "*",
     "@bruno-ui/react": "*",
     "@bruno-ui/tokens": "*",
+    "@bruno-ui/ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

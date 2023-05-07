@@ -1,18 +1,16 @@
-import { Box, BoxProps } from '@bruno-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
+import { Box, BoxProps, Text } from '@bruno-ui/react'
 
 export default {
-    title: 'Box',
+    title: 'Surfaces/Box',
     component: Box,
     args: {
         children: (
             <>
-                <span>Testando o elemento box</span>
+                <Text>Testando o elemento box</Text>
             </>
         )
     },
 } as Meta<BoxProps>
 
-export const Primary: StoryObj<BoxProps> = {
-
-}
+export const Primary: StoryObj<BoxProps> = {}

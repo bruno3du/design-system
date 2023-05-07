@@ -1,6 +1,6 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
-  stories: ["../src/pages/**/*.mdx", "../src/stories/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ["../src/pages/**/*.mdx", "../src/docs/**/*.mdx", "../src/stories/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -12,14 +12,11 @@ const config = {
     options: {},
   },
   docs: {
-    autodocs: "tag",
+    autodocs: true,
+    defaultName: 'Documentation',
   },
-  viteFinal: (config, { configType }) => {
-    if (configType === 'PRODUCTION') {
-      config.base = '/05-design-system/'
-    }
-
-    return config
-  }
+  features: {
+    storyStoreV7: true
+  },
 };
 export default config;
