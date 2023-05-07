@@ -1,11 +1,14 @@
+import { ElementType } from 'react';
 import { styled } from '../styles';
-import { ComponentProps } from 'react';
+import { ComponentProps } from '@stitches/react';
 
 export const Box = styled('div', {
-    padding: '$4',
+    padding: '$6',
     borderRadius: '$md',
-    backgroundColor: '$gray900',
+    backgroundColor: '$gray800',
     border: '1px solid $gray600',
 })
 
-export interface BoxProps extends ComponentProps<typeof Box> {}
+export interface BoxProps extends ComponentProps<typeof Box> {
+    as?: ElementType
+}
