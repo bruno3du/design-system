@@ -8,6 +8,18 @@ export default {
         src: "https://avatars.githubusercontent.com/u/83365446?v=4",
         alt: "Bruno",
     },
+    argTypes: {
+        src: {
+            control: {
+                type: "text"
+            }
+        },
+        alt: {
+            control: {
+                type: "text"
+            }
+        }
+    }
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

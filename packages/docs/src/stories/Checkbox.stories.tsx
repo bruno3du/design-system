@@ -9,7 +9,7 @@ export default {
         (Story) => (
             <Box as="label" css={{ display: "flex", flexDirection: "row", gap: "$2" }}>
                 {Story()}
-                <Text size="sm" >Accepet terms of Use</Text>
+                <Text size="sm" >Accept Terms of Use</Text>
             </Box>
         )
     ]
