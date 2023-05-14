@@ -1,6 +1,6 @@
 {
   "extends": "@bruno-ui/ts-config/react.json",
   "include": [
-    "./src"
-, "../react/src/components/TextInput"  ],
+    "src"
+  ],
 }
