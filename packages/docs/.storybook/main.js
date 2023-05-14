@@ -7,9 +7,7 @@ const config = {
     "@storybook/addon-interactions",
     "@storybook/addon-a11y"
   ],
-  framework: {
-    name: "@storybook/react-vite",
-  },
+  framework: "@storybook/react",
   docs: {
     autodocs: true,
     defaultName: 'Documentation',
