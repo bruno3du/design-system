@@ -1,0 +1,6 @@
+{
+    "extends": "@bruno-ui/eslint-config",
+    "ignorePatterns": [
+        "**/*.js"
+    ]
+}
