@@ -14,8 +14,8 @@ const config = {
     autodocs: true,
     defaultName: 'Documentation',
   },
-  features: {
-    storyStoreV7: true
+  core: {
+    builder: "@storybook/builder-vite"
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
