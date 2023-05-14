@@ -21,5 +21,11 @@ const config = {
   features: {
     storyStoreV7: true
   },
+  viteFinal: async (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/design-system/'
+    }
+
+    return config;
 };
 export default config;
