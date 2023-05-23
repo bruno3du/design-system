@@ -17,9 +17,6 @@ module.exports = {
     autodocs: true,
     defaultName: 'Documentation',
   },
-  // features: {
-  //   storyStoreV7: true
-  // },
   core: {
     builder: '@storybook/builder-vite', // 👈 The builder enabled here.
   },
