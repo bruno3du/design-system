@@ -3,8 +3,8 @@ import * as Avatar from "@radix-ui/react-avatar"
 
 export const AvatarContainer = styled(Avatar.Root, {
     borderRadius: "$full",
-    width: "$12",
-    height: "$12",
+    width: "$16",
+    height: "$16",
     display: "inline-block",
     overflow: "hidden",
 })
@@ -25,7 +25,7 @@ export const AvatarFallback = styled(Avatar.Fallback, {
     justifyContent: "center",
     backgroundColor: "$gray600",
     color: "$gray800",
-    
+
     svg: {
         width: "$6",
         height: "$6",
